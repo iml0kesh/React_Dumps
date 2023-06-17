@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Colors from './components/Colors';
 import Countries from './components/Countries';
 import "bootstrap/dist/css/bootstrap.css";
+import ButtonComp from './components/ButtonComp';
 
 
 function App() {
@@ -41,10 +42,10 @@ function App() {
 
   return (
     <div>
+      <ButtonComp />
       <h1>Task 1 , Task 2</h1>
       {data.map((record, index) => {
         return (
-          
           <Colors
             color={record.color}
             id={record.id}
