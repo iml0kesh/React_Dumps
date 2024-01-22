@@ -3,6 +3,7 @@ import CompA from "./CompA";
 import Counter from "./Counter";
 import ToDo from "./ToDo";
 import Meals from "./Meals";
+import Calculator from "./Calculator";
 
 function ReactForm() {
   const [userName, setUserName] = useState("");
@@ -60,7 +61,8 @@ function App() {
     <>
       {/* <Counter /> */}
       {/* <ToDo /> */}
-      <Meals />
+      {/* <Meals /> */}
+      <Calculator />
     </>
   );
 }
